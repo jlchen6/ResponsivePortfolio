@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>About Me</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,20 +10,51 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Welcome</a>
-        <div class="navbar-expand-md" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            </div>
+    <!-- Header navbar. Contains links to the other pages. Responsive design collapses the links for smaller screens -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Julia Chen</a>
+        <!-- Creates a toggle menu button for responsive design. Pops out a list of nav links when clicked. -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Nav links. The current page is highlighted -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-item nav-link active" href="index.html">About <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
         </div>
     </nav>
+    <br>
 
+    <div class="container">
+        <div class="text-black bg-light">
+            <h4 class="header">About Me</h4>
+            <img class="float-left img-fluid" src="icon.jpg" alt="Picture of Me">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet voluptatem culpa
+                asperiores repudiandae accusamus corporis, magnam beatae vitae, corrupti excepturi quas cumque placeat
+                similique assumenda quos tempora facilis. Corrupti, distinctio.</p>
+        </div>
+    </div>
+
+    <footer class="footer bg-light fixed-bottom">
+        <h4>Copyright 2020</h4>
+      </footer>
 </body>
 
 </html>
