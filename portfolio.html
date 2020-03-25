@@ -14,18 +14,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <!-- Header navbar. Contains links to the other pages. Responsive design collapses the links for smaller screens -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <a class="navbar-brand" href="#">Julia Chen</a>
-      <!-- Creates a toggle menu button for responsive design. Pops out a list of nav links when clicked. -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Nav links. The current page is highlighted -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <!-- Header navbar. Contains links to the other pages. Responsive design collapses the links for smaller screens -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Julia Chen</a>
+    <!-- Creates a toggle menu button for responsive design. Pops out a list of nav links when clicked. -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Nav links. The current page is highlighted -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-item nav-link" href="index.html">About</a>
@@ -43,52 +47,64 @@
 
   <!-- Grid container for portfolio elements -->
   <div class="container">
-    <div class="text-black bg-light">
-        <h4 class="header">Portfolio</h4>
-          <!-- On smaller screens, there are two columns per row, but on larger screens there is only 1 column per row -->
-        <div class="row">
-          <div class="col-xs-8 col-md-4">
-            <!-- Image link that links to the first Code Refactor Project.  -->
-            <figure class="figure">
-              <a href="https://jlchen6.github.io/CodeRefactor/">
-                <img src="https://jlchen6.github.io/CodeRefactor/assets/images/search-engine-optimization.jpg" class="figure-img img-fluid rounded img-responsive" alt="Code Refactor" href="https://jlchen6.github.io/CodeRefactor/">
-              </a>
-              <!-- Caption that links to the GitHub repository for the Code Refactor Project -->
-              <figcaption class="figure-caption text-right"><a href="https://github.com/jlchen6/CodeRefactor">Code Refactor Project</a> </figcaption>
-            </figure>
-          </div>
-          <div class="col-xs-8 col-md-4">
-            <!-- Image link that links to the current Responsive Portfolio project -->
-            <figure class="figure">
-              <a href="index.html">
-                <img src="https://jlchen6.github.io/CodeRefactor/assets/images/social-media-marketing.jpg" class="figure-img img-fluid rounded img-responsive" alt="Responsive Portfolio">
-              </a>
-              <!-- Caption that links to the GitHub repository for the current project -->
-              <figcaption class="figure-caption text-right"><a href="https://github.com/jlchen6/ResponsivePortfolio">Responsive Portfolio</a></figcaption>
-            </figure>
-          </div>
+    <div class="text-black">
+      <h4 class="header">Portfolio</h4>
+      <!-- On smaller screens, there are two columns per row, but on larger screens there is only 1 column per row -->
+      <div class="row">
+        <div class="col-xs-8 col-md-4">
+          <!-- Image link that links to the first Code Refactor Project.  -->
+          <figure class="figure">
+            <a href="https://jlchen6.github.io/CodeRefactor/">
+              <img src="https://jlchen6.github.io/CodeRefactor/assets/images/search-engine-optimization.jpg"
+                class="figure-img img-fluid rounded img-responsive" alt="Code Refactor"
+                href="https://jlchen6.github.io/CodeRefactor/">
+            </a>
+            <!-- Caption that links to the GitHub repository for the Code Refactor Project -->
+            <figcaption class="figure-caption text-right"><a href="https://github.com/jlchen6/CodeRefactor">Code
+                Refactor Project</a> </figcaption>
+          </figure>
         </div>
-        <!-- This row is just filled with placeholder images that don't link to anything -->
-        <div class="row">
-          <div class="col-xs-8 col-md-4">
-            <figure class="figure">
-              <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1" class="figure-img img-fluid rounded" alt="Code">
-              <figcaption class="figure-caption text-right">Example Project</figcaption>
-            </figure>
-          </div>
-          <div class="col-xs-8 col-md-4">
-            <figure class="figure">
-              <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1" class="figure-img img-fluid rounded" alt="Code" href="https://jlchen6.github.io/CodeRefactor/">
-              <figcaption class="figure-caption text-right">Example Project</figcaption>
-            </figure>
-          </div>
+        <div class="col-xs-8 col-md-4">
+          <!-- Image link that links to the current Responsive Portfolio project -->
+          <figure class="figure">
+            <a href="index.html">
+              <img src="https://jlchen6.github.io/CodeRefactor/assets/images/social-media-marketing.jpg"
+                class="figure-img img-fluid rounded img-responsive" alt="Responsive Portfolio">
+            </a>
+            <!-- Caption that links to the GitHub repository for the current project -->
+            <figcaption class="figure-caption text-right"><a
+                href="https://github.com/jlchen6/ResponsivePortfolio">Responsive Portfolio</a></figcaption>
+          </figure>
         </div>
+      </div>
+      <!-- Second row -->
+      <div class="row">
+        <div class="col-xs-8 col-md-4">
+          <figure class="figure">
+            <!-- Image that links to the page for Project 1, Daily Dispatch -->
+            <a href="https://fox-yokai.github.io/daily-dispatch/#">
+              <img src="http://clipart-library.com/img/1112902.jpg" class="figure-img img-fluid rounded" alt="Daily Dispatch">
+            </a>
+            <!-- Caption that links to the GitHub repository for the project -->
+            <figcaption class="figure-caption text-right"><a
+                href="https://github.com/fox-yokai/daily-dispatch">Daily Dispatch</a></figcaption>
+          </figure>
+          </figure>
+        </div>
+        <div class="col-xs-8 col-md-4">
+          <figure class="figure">
+            <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1"
+              class="figure-img img-fluid rounded" alt="Code" href="https://jlchen6.github.io/CodeRefactor/">
+            <figcaption class="figure-caption text-right">Example Project</figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
-<!-- Sticky Footer, stays at the bottom of the screen -->
-  <footer class="footer bg-light fixed-bottom">
-    <h4 class="text-center">Copyright 2020</h4>
+  <!-- Sticky Footer, stays at the bottom of the screen -->
+  <footer class="fixed-bottom">
+    <h4 class="text-center footer-text">Copyright 2020</h4>
   </footer>
 </body>
 
