@@ -13,12 +13,13 @@ Responsive Design:
 * On smaller screens, the profile image takes up its own row.
 
 ## Contact
-Contains a form where a user can enter their name, email, and a message to send.
-  * As of now, the form won't send anything and is there just as a POC.
+Contains contact information if the use wishes to contact me.
+![Contact page](./assets/contactPage.png)
+
 
 ## Portfolio
 Has images that link to other projects I've done on GitHub
-![Index page](./assets/portfolioPage.png)
+![Portfolio page](./assets/portfolioPage.png)
 
   * The first image links to the CodeRefactor project, while the other one links right to this Portfolio
   * The other two images are placeholders.
