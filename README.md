@@ -6,6 +6,8 @@ All pages have a responsive navbar at the top that links to the other pages, as 
 ## Index
 Main landing page. Contains an about section with a profile image.
 
+![Index page](./assets/mainPage.png)
+
 Responsive Design:
 * On Larger screens, the text wraps around the profile image
 * On smaller screens, the profile image takes up its own row.
