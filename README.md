@@ -14,11 +14,13 @@ Responsive Design:
 
 ## Contact
 Contains contact information if the use wishes to contact me.
+
 ![Contact page](./assets/contactPage.png)
 
 
 ## Portfolio
 Has images that link to other projects I've done on GitHub
+
 ![Portfolio page](./assets/portfolioPage.png)
 
   * The first image links to the CodeRefactor project, while the other one links right to this Portfolio
